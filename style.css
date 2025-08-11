@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    background-color: #081b31;
+    color:#fff;
+    height:5rem;
+    text-align:center;
+    line-height: 5rem;
+    /*line -height it is used to bring it to the center okay and 
+    it specifies the text height
+    */
+}
+
+
+.choice {
+    height: 165px;
+    width:165px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+img{
+    height:150px;
+    width:150px;
+    background-size:contain; 
+    border-radius:50%;
+}
+.choices{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 5rem;
+    gap:3rem; /* The gap property works in flex or grid containers to add spacing between child elements.*/
+}
+
+.choice:hover{ 
+opacity:0.5;
+cursor:pointer;
+background-color: #081b31;
+}
+
+.score-board{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    gap: 5rem;
+    padding-left:4px;
+}
+#user-score ,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top:5rem;
+    display:flex;
+    justify-content: center;
+}
+#msg{
+   
+    text-align: center;
+    background-color:#081b31 ;
+    color:#fff;
+    font-size:2rem;
+    display:outline;
+    border-radius: 15%;
+}
